@@ -1,5 +1,5 @@
 <h3 align="center">
-  Sistema de Grid ReactJs + Styled-Components
+  Projeto Brafé - Desenvolvido com sistema de Grid ReactJs + Styled-Components
 </h3>
 
 ---
