@@ -6,9 +6,13 @@
 
 ## :rocket: Sobre
 
+Brafé
+
+<img src="https://github.com/Cahmoraes/brafe-react/blob/513216323ee59e0c20cc600f632cfd408d0ceef8/src/assets/examples/brafe-react.gif" alt="Brafé">
+
 Sistema de Grid de 12 colunas desenvolvido com Styled-components, utilizando Flexbox.
 
-<img src="https://github.com/Cahmoraes/React-Grid/blob/master/src/assets/demo.gif">
+<img src="https://github.com/Cahmoraes/React-Grid/blob/master/src/assets/demo.gif" alt="Grid System">
 
 ## Descrição
 O sistema possui algumas variáveis configuráveis:
