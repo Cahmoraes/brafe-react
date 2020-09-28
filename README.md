@@ -34,11 +34,11 @@ O sistema possui algumas variáveis configuráveis:
 <img src="https://github.com/Cahmoraes/React-Grid/blob/master/src/assets/row.png">
  
 <b>Propriedades:</b>
-Define a quantidade de coluna que serão exibitas nas resoluções.
-Propriedade | Valor
-desktop: Quantidade de colunas (number)
-tablet: Quantidade de colunas (number)
-mobile: Quantidade de colunas (number)
+Define a quantidade de coluna que serão exibitas nas resoluções.<br>
+Propriedade | Valor <br>
+desktop: Quantidade de colunas (number)<br>
+tablet: Quantidade de colunas (number)<br>
+mobile: Quantidade de colunas (number)<br>
 
 <b>Obs.:</b> Se não for informado a quantidade de colunas, serão ocupados 12 colunas.
 
