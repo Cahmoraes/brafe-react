@@ -17,6 +17,7 @@ export const Container = styled.header`
     }
     a {
       color: #FFF;
+      cursor: pointer;
       &:visited {
         color: #FFF;
       }
