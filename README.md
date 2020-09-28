@@ -51,4 +51,3 @@ mobile: Quantidade de colunas (number)<br>
 ## :warning: Pré-requisitos
 
 - [git](https://git-scm.com/)
-# brafe-react
