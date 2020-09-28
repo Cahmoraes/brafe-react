@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         <h1>Cafés com a cara<br />do Brasil</h1>
         <p>Direto das fazendas de Minas Gerais</p>
       </Main>
-      <Sobre>
+      <Sobre id="sobre">
         <Column>
           <h2>Uma Mistura de</h2>
         </Column>
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
           </p>
         </Column>
       </Sobre>
-      <Produtos>
+      <Produtos id="produtos">
         <Container>
           <Column desktop={4} tablet={4}>
             <Produto type="paulista">Paulista</Produto>
@@ -56,12 +56,12 @@ const Home: React.FC = () => {
             </p>
           </Column>
           <Column style={{ textAlign: 'center', marginTop: '40px' }}>
-            <CallToAction>Saiba Mais</CallToAction>
+            <CallToAction to="/">Saiba Mais</CallToAction>
           </Column>
         </Container>
       </Produtos>
 
-      <Locais>
+      <Locais id="locais">
         <Column>
           <Row>
             <Column desktop={6} tablet={6}>
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
               <p>
                 As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.
               </p>
-              <CallToAction>Ver Mapa</CallToAction>
+              <CallToAction to="/">Ver Mapa</CallToAction>
             </Column>
           </Row>
           <Row>
@@ -84,7 +84,7 @@ const Home: React.FC = () => {
               <p>
                 As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.
               </p>
-              <CallToAction>Ver Mapa</CallToAction>
+              <CallToAction to="/">Ver Mapa</CallToAction>
             </Column>
           </Row>
           <Row>
@@ -96,13 +96,13 @@ const Home: React.FC = () => {
               <p>
                 As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.
               </p>
-              <CallToAction>Ver Mapa</CallToAction>
+              <CallToAction to="/">Ver Mapa</CallToAction>
             </Column>
           </Row>
         </Column>
       </Locais>
 
-      <Assine>
+      <Assine id="contato">
         <Container>
           <Column desktop={6} tablet={6}>
             <div>

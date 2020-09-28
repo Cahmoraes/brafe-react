@@ -11,10 +11,10 @@ const Header: React.FC = () => {
         <img src={Brafe} alt="Brafe" />
       </Link>
       <ul>
-        <li>Sobre</li>
-        <li>Produtos</li>
-        <li>Portfólio</li>
-        <li>Contato</li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#locais">Locais</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </Container>
   )

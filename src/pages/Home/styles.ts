@@ -151,6 +151,7 @@ export const Assine = styled.section`
       font-style: italic;
       font-family: Georgia, serif;
       padding: 10px;
+      outline: none;
     }
 
     button {

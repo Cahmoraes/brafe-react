@@ -24,6 +24,10 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   img {
     max-width: 100%;
     display: block;

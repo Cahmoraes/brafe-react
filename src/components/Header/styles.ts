@@ -15,5 +15,11 @@ export const Container = styled.header`
     & li + li {
       margin-left: 2rem;
     }
+    a {
+      color: #FFF;
+      &:visited {
+        color: #FFF;
+      }
+    }
   }
 `
