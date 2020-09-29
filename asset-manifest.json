@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/brafe-react/static/js/main.89f5de04.chunk.js",
-    "main.js.map": "/brafe-react/static/js/main.89f5de04.chunk.js.map",
-    "runtime-main.js": "/brafe-react/static/js/runtime-main.3972a421.js",
-    "runtime-main.js.map": "/brafe-react/static/js/runtime-main.3972a421.js.map",
-    "static/js/2.bb722003.chunk.js": "/brafe-react/static/js/2.bb722003.chunk.js",
-    "static/js/2.bb722003.chunk.js.map": "/brafe-react/static/js/2.bb722003.chunk.js.map",
+    "main.js": "/brafe-react/static/js/main.98b1052f.chunk.js",
+    "main.js.map": "/brafe-react/static/js/main.98b1052f.chunk.js.map",
+    "runtime-main.js": "/brafe-react/static/js/runtime-main.44bacec7.js",
+    "runtime-main.js.map": "/brafe-react/static/js/runtime-main.44bacec7.js.map",
+    "static/js/2.e4db9002.chunk.js": "/brafe-react/static/js/2.e4db9002.chunk.js",
+    "static/js/2.e4db9002.chunk.js.map": "/brafe-react/static/js/2.e4db9002.chunk.js.map",
     "index.html": "/brafe-react/index.html",
-    "precache-manifest.87f06b14087991a33c9ac8fadf1956db.js": "/brafe-react/precache-manifest.87f06b14087991a33c9ac8fadf1956db.js",
+    "precache-manifest.0d5bcd53079c228514872c3d490af574.js": "/brafe-react/precache-manifest.0d5bcd53079c228514872c3d490af574.js",
     "service-worker.js": "/brafe-react/service-worker.js",
-    "static/js/2.bb722003.chunk.js.LICENSE.txt": "/brafe-react/static/js/2.bb722003.chunk.js.LICENSE.txt",
+    "static/js/2.e4db9002.chunk.js.LICENSE.txt": "/brafe-react/static/js/2.e4db9002.chunk.js.LICENSE.txt",
     "static/media/bg-intro.jpg": "/brafe-react/static/media/bg-intro.76353a21.jpg",
     "static/media/botafogo.jpg": "/brafe-react/static/media/botafogo.9ed21e65.jpg",
     "static/media/cafe-1.jpg": "/brafe-react/static/media/cafe-1.a4342daa.jpg",
@@ -18,8 +18,8 @@
     "static/media/mineirao.jpg": "/brafe-react/static/media/mineirao.5b1c615e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3972a421.js",
-    "static/js/2.bb722003.chunk.js",
-    "static/js/main.89f5de04.chunk.js"
+    "static/js/runtime-main.44bacec7.js",
+    "static/js/2.e4db9002.chunk.js",
+    "static/js/main.98b1052f.chunk.js"
   ]
 }

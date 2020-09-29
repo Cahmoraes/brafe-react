@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be8bee6d3712610842de5f504040fe27",
+    "revision": "88ad1a34ae9d8b1d75b9bc6a26f5dcc5",
     "url": "/brafe-react/index.html"
   },
   {
-    "revision": "797daf62f885298d7e25",
-    "url": "/brafe-react/static/js/2.bb722003.chunk.js"
+    "revision": "1bd56412b24897e6496f",
+    "url": "/brafe-react/static/js/2.e4db9002.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/brafe-react/static/js/2.bb722003.chunk.js.LICENSE.txt"
+    "url": "/brafe-react/static/js/2.e4db9002.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b99a726b3ef7b6a04de",
-    "url": "/brafe-react/static/js/main.89f5de04.chunk.js"
+    "revision": "5d411596bc3a1c50500b",
+    "url": "/brafe-react/static/js/main.98b1052f.chunk.js"
   },
   {
-    "revision": "8ab097b2501c22629530",
-    "url": "/brafe-react/static/js/runtime-main.3972a421.js"
+    "revision": "160e5762d3a6cb6c0f41",
+    "url": "/brafe-react/static/js/runtime-main.44bacec7.js"
   },
   {
     "revision": "76353a2137ae63b0ee546218e076da8f",
