@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   background: #252525;
-  padding: 20px;
+  padding: 20px calc((100% - 960px) / 2);
   width: 100%;
-  max-width: 960px;
   color: #FFF;
   display: flex;
   justify-content: space-between;
@@ -23,6 +22,13 @@ export const Container = styled.header`
       &:visited {
         color: #FFF;
       }
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    & {
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 
