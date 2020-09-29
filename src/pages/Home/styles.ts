@@ -30,6 +30,15 @@ export const Main = styled.main`
     font-size: 1.8rem;
     font-style: italic;
   }
+
+  @media only screen and (max-width: 480px) {
+    & {
+      padding: 80px 0;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+  }
 `
 
 export const Sobre = styled(Container)`
@@ -48,6 +57,12 @@ export const Sobre = styled(Container)`
     max-width: 460px;
     line-height: 2.6rem;
     font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    & {
+      padding: 2rem 0;
+    }
   }
 `
 
@@ -74,6 +89,12 @@ export const Produtos = styled.section`
   p {
     font-size: 1.4rem;
     line-height: 2rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    & {
+      padding: 2rem 0;
+    }
   }
 `
 

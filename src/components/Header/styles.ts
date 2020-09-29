@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   background: #252525;
-  padding: 20px calc((100% - 960px) / 2);
+  padding: 20px;
+  width: 100%;
+  max-width: 960px;
   color: #FFF;
   display: flex;
   justify-content: space-between;
@@ -21,6 +23,44 @@ export const Container = styled.header`
       &:visited {
         color: #FFF;
       }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    ul::before {
+      content: '';
+      height: 3px;
+      width: 25px;
+      box-shadow: 0 7px, 0 -7px;
+      border-radius: 5px;
+      background: #FFF;
+      display: block;
+      margin-left: 70px;
+    }
+
+    ul.active {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 37px;
+      width: 115px;
+      background: #252525;
+    
+      & li + li {
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      li {
+        display: block;
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 4px;
+      }
+    }
+    
+    li {
+      display: none;
     }
   }
 `
