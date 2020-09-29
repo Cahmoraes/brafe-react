@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/brafe-react/precache-manifest.9008dbbdbc1e9fbcc7021eb95adba74c.js"
+  "/brafe-react/precache-manifest.eafa585c0c5c3a12e92a7e94d8f01a66.js"
 );
 
 self.addEventListener('message', (event) => {

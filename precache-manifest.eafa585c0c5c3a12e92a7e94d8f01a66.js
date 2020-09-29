@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df06266fee6a4601dbf8e5e4b17fbdfe",
+    "revision": "c61a136030ab885312060ddb7abc5be1",
     "url": "/brafe-react/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brafe-react/static/js/2.467eb654.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2497d6445fcac3f4bf98",
-    "url": "/brafe-react/static/js/main.7707305e.chunk.js"
+    "revision": "ab9a28fe301f33658180",
+    "url": "/brafe-react/static/js/main.dd2f0af9.chunk.js"
   },
   {
     "revision": "160e5762d3a6cb6c0f41",
