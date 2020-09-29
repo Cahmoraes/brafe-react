@@ -12,7 +12,6 @@ const Header: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false)
 
   const verifyMobile = useCallback(() => {
-    console.log('aqui')
     window.matchMedia('(max-width:480px)').matches ?
       setIsMobile(true) : setIsMobile(false)
   }, [])
