@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/brafe-react/static/js/main.502fa8e6.chunk.js",
-    "main.js.map": "/brafe-react/static/js/main.502fa8e6.chunk.js.map",
+    "main.js": "/brafe-react/static/js/main.7707305e.chunk.js",
+    "main.js.map": "/brafe-react/static/js/main.7707305e.chunk.js.map",
     "runtime-main.js": "/brafe-react/static/js/runtime-main.44bacec7.js",
     "runtime-main.js.map": "/brafe-react/static/js/runtime-main.44bacec7.js.map",
     "static/js/2.467eb654.chunk.js": "/brafe-react/static/js/2.467eb654.chunk.js",
     "static/js/2.467eb654.chunk.js.map": "/brafe-react/static/js/2.467eb654.chunk.js.map",
     "index.html": "/brafe-react/index.html",
-    "precache-manifest.f9ac5096424f2dde29c073073e0ed6d0.js": "/brafe-react/precache-manifest.f9ac5096424f2dde29c073073e0ed6d0.js",
+    "precache-manifest.9008dbbdbc1e9fbcc7021eb95adba74c.js": "/brafe-react/precache-manifest.9008dbbdbc1e9fbcc7021eb95adba74c.js",
     "service-worker.js": "/brafe-react/service-worker.js",
     "static/js/2.467eb654.chunk.js.LICENSE.txt": "/brafe-react/static/js/2.467eb654.chunk.js.LICENSE.txt",
     "static/media/bg-intro.jpg": "/brafe-react/static/media/bg-intro.76353a21.jpg",
@@ -20,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.44bacec7.js",
     "static/js/2.467eb654.chunk.js",
-    "static/js/main.502fa8e6.chunk.js"
+    "static/js/main.7707305e.chunk.js"
   ]
 }
