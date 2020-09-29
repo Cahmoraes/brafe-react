@@ -41,7 +41,7 @@ export const Container = styled.header`
       border-radius: 5px;
       background: #FFF;
       display: block;
-      margin-left: 70px;
+      margin-left: 80px;
     }
 
     ul.active {
