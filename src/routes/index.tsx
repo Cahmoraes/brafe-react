@@ -8,6 +8,7 @@ const Routes: React.FC = () => {
   return (
     <Switch>
       <Route path="/" exact component={Home} />
+      <Route path="/brafe-react/" component={Home} />
     </Switch>
   )
 }
