@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/brafe-react/static/js/main.98b1052f.chunk.js",
-    "main.js.map": "/brafe-react/static/js/main.98b1052f.chunk.js.map",
+    "main.js": "/brafe-react/static/js/main.502fa8e6.chunk.js",
+    "main.js.map": "/brafe-react/static/js/main.502fa8e6.chunk.js.map",
     "runtime-main.js": "/brafe-react/static/js/runtime-main.44bacec7.js",
     "runtime-main.js.map": "/brafe-react/static/js/runtime-main.44bacec7.js.map",
-    "static/js/2.e4db9002.chunk.js": "/brafe-react/static/js/2.e4db9002.chunk.js",
-    "static/js/2.e4db9002.chunk.js.map": "/brafe-react/static/js/2.e4db9002.chunk.js.map",
+    "static/js/2.467eb654.chunk.js": "/brafe-react/static/js/2.467eb654.chunk.js",
+    "static/js/2.467eb654.chunk.js.map": "/brafe-react/static/js/2.467eb654.chunk.js.map",
     "index.html": "/brafe-react/index.html",
-    "precache-manifest.0d5bcd53079c228514872c3d490af574.js": "/brafe-react/precache-manifest.0d5bcd53079c228514872c3d490af574.js",
+    "precache-manifest.f9ac5096424f2dde29c073073e0ed6d0.js": "/brafe-react/precache-manifest.f9ac5096424f2dde29c073073e0ed6d0.js",
     "service-worker.js": "/brafe-react/service-worker.js",
-    "static/js/2.e4db9002.chunk.js.LICENSE.txt": "/brafe-react/static/js/2.e4db9002.chunk.js.LICENSE.txt",
+    "static/js/2.467eb654.chunk.js.LICENSE.txt": "/brafe-react/static/js/2.467eb654.chunk.js.LICENSE.txt",
     "static/media/bg-intro.jpg": "/brafe-react/static/media/bg-intro.76353a21.jpg",
     "static/media/botafogo.jpg": "/brafe-react/static/media/botafogo.9ed21e65.jpg",
     "static/media/cafe-1.jpg": "/brafe-react/static/media/cafe-1.a4342daa.jpg",
@@ -19,7 +19,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44bacec7.js",
-    "static/js/2.e4db9002.chunk.js",
-    "static/js/main.98b1052f.chunk.js"
+    "static/js/2.467eb654.chunk.js",
+    "static/js/main.502fa8e6.chunk.js"
   ]
 }
