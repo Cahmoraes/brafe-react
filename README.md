@@ -47,6 +47,7 @@ mobile: Quantidade de colunas (number)<br>
 - [typescript](https://www.typescriptlang.org/)
 - [reactjs](https://pt-br.reactjs.org/)
 - [styled-components](https://styled-components.com/)
+- [react-scroll](https://www.npmjs.com/package/react-scroll)
 
 ## :warning: Pré-requisitos
 
