@@ -81,10 +81,10 @@ export const Etiqueta = styled.h3`
 `
 
 export const Produtos = styled.section`
-  background: #e7e4d8;
+  background: ${(props) => props.theme.produtos.background};
   padding: 6rem 0;
-  border-top: 3px solid #d6d3c8;
-  border-bottom: 3px solid #d6d3c8;
+  border-top: 3px solid ${(props) => props.theme.produtos.borderColor};
+  border-bottom: 3px solid ${(props) => props.theme.produtos.borderColor};
 
   p {
     font-size: 1.4rem;
@@ -148,7 +148,7 @@ export const Locais = styled(Container)`
 `
 
 export const Assine = styled.section`
-  background: #e7e4d8;
+  background: ${({ theme }) => theme.newsletter.background};
   padding: 3rem 0;
   
   h2 {
@@ -173,6 +173,10 @@ export const Assine = styled.section`
       font-family: Georgia, serif;
       padding: 10px;
       outline: none;
+      color: ${({ theme }) => theme.colors.text};
+      &::placeholder {
+        color: ${({ theme }) => theme.colors.text};
+      }
     }
 
     button {

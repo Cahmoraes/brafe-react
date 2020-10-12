@@ -7,7 +7,7 @@ export const Container = styled(Link)`
     text-transform: uppercase;
     text-decoration: none;
     border: 3px solid;
-    color: #252525;
+    color: ${({ theme }) => theme.callToAction.color};
     padding: 10px 20px;
     cursor: pointer;
 `

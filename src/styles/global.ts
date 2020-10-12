@@ -15,6 +15,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: Georgia, sans-serif;
     font-size: 1rem;
+    color: ${({ theme }) => theme.colors.text};
+    background: ${({ theme }) => theme.colors.background};
   }
 
   h1,h2,h3,h4,h5,h6 {
