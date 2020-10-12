@@ -11,9 +11,19 @@ import light from '../../styles/themes/light';
 
 const Header: React.FC = () => {
   const menu = useRef<HTMLUListElement>(null)
+  const [isMobile, setIsMobile] = useState(false)
+  const [themeStoraged, setThemeStoraged] = useState(() => {
+    const theme = localStorage.getItem('@themestoraged')
+    if (theme) return JSON.parse(theme)
+    return null
+  })
+
   const { setDefaultTheme, defaultTheme } = useThemeProvider()
 
-  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    if (themeStoraged)
+      setDefaultTheme(themeStoraged)
+  }, [themeStoraged, setDefaultTheme])
 
   const captalize = useCallback((text: string) => {
     return text[0].toUpperCase() + text.slice(1)
@@ -32,6 +42,7 @@ const Header: React.FC = () => {
     }
   }, [verifyMobile])
 
+
   const toggleMenu = useCallback(() => {
     if (!isMobile) {
       return
@@ -42,7 +53,14 @@ const Header: React.FC = () => {
 
   const handleTheme = useCallback((event: MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault()
-    defaultTheme.title === 'light' ? setDefaultTheme(dark) : setDefaultTheme(light)
+    if (defaultTheme.title === 'light') {
+      setDefaultTheme(dark)
+      window.localStorage.setItem('@themestoraged', JSON.stringify(dark))
+    } else {
+      setDefaultTheme(light)
+      window.localStorage.setItem('@themestoraged', JSON.stringify(light))
+    }
+
   }, [defaultTheme.title, setDefaultTheme])
 
   return (
